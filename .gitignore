@@ -1,4 +1,20 @@
+# Environments
 .venv/
+env/
+venv/
+ENV/
+
+# Databases
+*.db
+*.sqlite3
+garden.db
+
+# Python Caches
 __pycache__/
 *.pyc
-garden.db
+*.pyo
+*.pyd
+
+# IDE Settings
+.vscode/
+.idea/
